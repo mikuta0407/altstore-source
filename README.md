@@ -11,6 +11,7 @@ https://mikuta0407.github.io/altstore-source/source.json
 ## アプリ
 
 - [mRemote](https://github.com/mikuta0407/mRemote) — iPhone・iPad から RDP と SSH でつなぐアプリ
+- [SubDeck](https://github.com/mikuta0407/SubDeck) — Subsonic・Navidrome サーバーで音楽を聴くアプリ
 
 ## 構成
 

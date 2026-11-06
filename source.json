@@ -7,7 +7,8 @@
   "tintColor": "#1B5B8F",
   "nsfw": false,
   "featuredApps": [
-    "net.mikuta0407.mRemote"
+    "net.mikuta0407.mRemote",
+    "net.mikuta0407.SubDeck"
   ],
   "apps": [
     {
@@ -108,6 +109,93 @@
         "privacy": {
           "NSLocalNetworkUsageDescription": "Connect by Remote Desktop or SSH to the computers you choose on your local network.",
           "NSMicrophoneUsageDescription": "Send your voice to the remote computer, when you turn on its microphone."
+        }
+      }
+    },
+    {
+      "name": "SubDeck",
+      "bundleIdentifier": "net.mikuta0407.SubDeck",
+      "marketplaceID": "6831474721",
+      "developerName": "mikuta0407",
+      "subtitle": "Subsonic / Navidrome の音楽プレイヤー",
+      "localizedDescription": "SubDeck は、自分の Subsonic・OpenSubsonic・Navidrome サーバーで音楽を聴くためのアプリです。オープンソースの音楽アプリ Cassette(https://github.com/CassetteLab/cassette)をもとにしています。\n\n■ 再生\n・キーシフト:テンポを変えずに、半音単位で音の高さを変えられます\n・一度再生した曲を端末に残し、通信がなくてももう一度再生できます。通信を一切しないオフラインモードもあります\n・アルバムやプレイリストのダウンロード、ReplayGain、クロスフェード\n・サーバーにある歌詞の表示\n\n■ ライブラリ\n・アルバム、アーティスト、曲、プレイリストの一覧と検索\n・お気に入り、プレイリストの作成と編集\n・インターネットラジオ、1 年の再生をまとめる Wrapped、ホーム画面のウィジェット\n\n■ プライバシー\n通信するのは、自分で設定したサーバーだけです。開発者や第三者に情報を送ることはありません。\n\nソースコード: https://github.com/mikuta0407/SubDeck",
+      "iconURL": "https://mikuta0407.github.io/altstore-source/apps/subdeck/icon.png",
+      "tintColor": "#14B8A6",
+      "category": "entertainment",
+      "screenshots": {
+        "iphone": [
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/subdeck/screenshots/iphone/01-home.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/subdeck/screenshots/iphone/02-album.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/subdeck/screenshots/iphone/03-player.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/subdeck/screenshots/iphone/04-queue.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/subdeck/screenshots/iphone/05-settings.png",
+            "width": 1320,
+            "height": 2868
+          }
+        ],
+        "ipad": [
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/subdeck/screenshots/ipad/01-album.png",
+            "width": 2064,
+            "height": 2752
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/subdeck/screenshots/ipad/02-player.png",
+            "width": 2064,
+            "height": 2752
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/subdeck/screenshots/ipad/03-settings.png",
+            "width": 2064,
+            "height": 2752
+          }
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1647",
+          "date": "2026-11-06T14:01:36Z",
+          "localizedDescription": "AltStore PAL での最初のリリースです。",
+          "downloadURL": "https://github.com/mikuta0407/altstore-source/releases/download/subdeck-0.1.0-1647/manifest.json",
+          "assetURLs": {
+            "manifest": "https://github.com/mikuta0407/altstore-source/releases/download/subdeck-0.1.0-1647/manifest.json",
+            "signature": "https://github.com/mikuta0407/altstore-source/releases/download/subdeck-0.1.0-1647/signature",
+            "2bbf5953-e59e-3667-929e-030b2946d7d1": "https://github.com/mikuta0407/altstore-source/releases/download/subdeck-0.1.0-1647/2bbf5953-e59e-3667-929e-030b2946d7d1.ipa",
+            "b2c3687d-3722-383a-92d5-d773ebc98976": "https://github.com/mikuta0407/altstore-source/releases/download/subdeck-0.1.0-1647/b2c3687d-3722-383a-92d5-d773ebc98976.ipa",
+            "b3d4f784-b7d2-3180-b876-0cdc9519ce66": "https://github.com/mikuta0407/altstore-source/releases/download/subdeck-0.1.0-1647/b3d4f784-b7d2-3180-b876-0cdc9519ce66.ipa"
+          },
+          "size": 7249904,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups",
+          "beta-reports-active",
+          "get-task-allow"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "SubDeck needs to access your camera to take pictures for playlist artworks",
+          "NSLocalNetworkUsageDescription": "SubDeck needs access to your local network to connect to your Navidrome or Subsonic server.",
+          "NSPhotoLibraryUsageDescription": "SubDeck needs to access your library to upload pictures for playlists"
         }
       }
     }
