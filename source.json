@@ -1,0 +1,116 @@
+{
+  "name": "mikuta0407",
+  "subtitle": "mikuta0407 のアプリ",
+  "description": "mikuta0407 が作っているアプリの AltStore ソースです。",
+  "iconURL": "https://mikuta0407.github.io/altstore-source/apps/mremote/icon.png",
+  "website": "https://github.com/mikuta0407",
+  "tintColor": "#1B5B8F",
+  "nsfw": false,
+  "featuredApps": [
+    "net.mikuta0407.mRemote"
+  ],
+  "apps": [
+    {
+      "name": "mRemote",
+      "bundleIdentifier": "net.mikuta0407.mRemote",
+      "marketplaceID": "6830942448",
+      "developerName": "mikuta0407",
+      "subtitle": "RDP と SSH のリモート接続",
+      "localizedDescription": "mRemote は、iPhone・iPad から Windows や Mac にリモートデスクトップ(RDP)で、Linux や Mac などに SSH で接続するアプリです。日本語の JIS キーボードで使いやすいことを第一に作っています。\n\n■ キーボード(RDP)\n・キーを文字ではなく PC のキーとして送るので、ほぼフルキーボードとして使えます。Ctrl / Alt / Shift / Win の組み合わせ、Esc、ファンクションキー、矢印、Home / End から Ctrl+Alt+Del まで送れます\n・日本語入力は接続先(ホスト)の IME で行えます。いつも使っているホスト側の IME をそのまま使え、iPhone・iPad 側の変換は挟みません\n・Magic Keyboard など JIS 配列の物理キーボードをつなぐと、英数/かなキーを Windows に無変換/変換として送れます\n・ソフトウェアキーボードにも、Ctrl / Alt / Shift / Win、Esc、Tab、Home / End、Del や、自分で決めたショートカットを並べた拡張キー列があります。手元の IME で確定した文字を送るモードにも切り替えられます\n・画面にフル PC キーボードとタッチパッドを出せます。iPhone Duo では、ラップトップモードにするとノートPCのように使うことが出来ます\n・Mac に macos-rdp-server(https://github.com/mikuta0407/macos-rdp-server)を入れてつなぐと、Mac でも快適に使えます。⌘ キー、英数/かな、Fn をそのまま Mac に送れ、トラックパッドのスクロールやジェスチャーも Mac のまま使えます\n\n■ リモートデスクトップ(RDP)\n・音声、マイク、クリップボード(テキストと画像)、フォルダーの共有\n・画面の大きさに合わせて接続先の解像度を変える表示\n・外部ディスプレイ、ハードウェアキーボードとマウス\n・.rdp ファイルと rdp:// リンクを開けます\n\n■ SSH\n・タブとペインの分割\n・tmux のセッションを見つけて戻る機能と、tmux の Control Mode\n・パスワード認証と公開鍵認証、ホスト鍵の確認\n・踏み台(ProxyJump)、ポートフォワード\n・~/.ssh/config の読み込みと書き出し\n\n■ 共通\n・SOCKS5 プロキシ経由の接続\n・接続が切れたときの自動再接続\n\n■ プライバシー\n接続先の設定とパスワードは端末の中にだけ保存します。開発者や第三者に情報を送ることはありません。",
+      "iconURL": "https://mikuta0407.github.io/altstore-source/apps/mremote/icon.png",
+      "tintColor": "#1B5B8F",
+      "category": "utilities",
+      "screenshots": {
+        "iphone": [
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/mremote/screenshots/iphone/01-rdp-pckeyboard.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/mremote/screenshots/iphone/02-rdp-desktop.png",
+            "width": 2868,
+            "height": 1320
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/mremote/screenshots/iphone/03-list.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/mremote/screenshots/iphone/04-editor.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/mremote/screenshots/iphone/05-terminal.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/mremote/screenshots/iphone/06-panes.png",
+            "width": 1320,
+            "height": 2868
+          }
+        ],
+        "ipad": [
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/mremote/screenshots/ipad/01-rdp-pckeyboard.png",
+            "width": 2732,
+            "height": 2048
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/mremote/screenshots/ipad/02-list.png",
+            "width": 2752,
+            "height": 2064
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/mremote/screenshots/ipad/03-editor.png",
+            "width": 2752,
+            "height": 2064
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/mremote/screenshots/ipad/04-terminal.png",
+            "width": 2752,
+            "height": 2064
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/mremote/screenshots/ipad/05-panes.png",
+            "width": 2752,
+            "height": 2064
+          }
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.5.0",
+          "buildVersion": "182",
+          "date": "2026-11-05T16:59:52Z",
+          "localizedDescription": "AltStore PAL での最初のリリースです。",
+          "downloadURL": "https://github.com/mikuta0407/altstore-source/releases/download/mremote-0.5.0-182/manifest.json",
+          "assetURLs": {
+            "manifest": "https://github.com/mikuta0407/altstore-source/releases/download/mremote-0.5.0-182/manifest.json",
+            "signature": "https://github.com/mikuta0407/altstore-source/releases/download/mremote-0.5.0-182/signature",
+            "0d6eed26-f72f-307d-9933-f9f70bd57ca5": "https://github.com/mikuta0407/altstore-source/releases/download/mremote-0.5.0-182/0d6eed26-f72f-307d-9933-f9f70bd57ca5.ipa",
+            "23c78f6a-3631-3983-a0a9-0efc2591c55c": "https://github.com/mikuta0407/altstore-source/releases/download/mremote-0.5.0-182/23c78f6a-3631-3983-a0a9-0efc2591c55c.ipa",
+            "74ac03b1-01cf-33e5-845e-5ce142ce8183": "https://github.com/mikuta0407/altstore-source/releases/download/mremote-0.5.0-182/74ac03b1-01cf-33e5-845e-5ce142ce8183.ipa",
+            "bf5cbabc-97ef-3372-a53e-0cb7a7114c5c": "https://github.com/mikuta0407/altstore-source/releases/download/mremote-0.5.0-182/bf5cbabc-97ef-3372-a53e-0cb7a7114c5c.ipa"
+          },
+          "size": 5239641,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "beta-reports-active",
+          "get-task-allow"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Connect by Remote Desktop or SSH to the computers you choose on your local network.",
+          "NSMicrophoneUsageDescription": "Send your voice to the remote computer, when you turn on its microphone."
+        }
+      }
+    }
+  ],
+  "news": []
+}
