@@ -12,6 +12,7 @@ https://mikuta0407.github.io/altstore-source/source.json
 
 - [mRemote](https://github.com/mikuta0407/mRemote) — iPhone・iPad から RDP と SSH でつなぐアプリ
 - [SubDeck](https://github.com/mikuta0407/SubDeck) — Subsonic・Navidrome サーバーで音楽を聴くアプリ
+- [NP21i](https://github.com/mikuta0407/NP21i) — iPhone・iPad で動く PC-98 エミュレータ（MIDI 対応）
 
 ## 構成
 

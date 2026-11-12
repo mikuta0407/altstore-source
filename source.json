@@ -8,7 +8,8 @@
   "nsfw": false,
   "featuredApps": [
     "net.mikuta0407.mRemote",
-    "net.mikuta0407.SubDeck"
+    "net.mikuta0407.SubDeck",
+    "net.mikuta0407.np21ios"
   ],
   "apps": [
     {
@@ -196,6 +197,102 @@
           "NSCameraUsageDescription": "SubDeck needs to access your camera to take pictures for playlist artworks",
           "NSLocalNetworkUsageDescription": "SubDeck needs access to your local network to connect to your Navidrome or Subsonic server.",
           "NSPhotoLibraryUsageDescription": "SubDeck needs to access your library to upload pictures for playlists"
+        }
+      }
+    },
+    {
+      "name": "NP21i",
+      "bundleIdentifier": "net.mikuta0407.np21ios",
+      "marketplaceID": "6832183266",
+      "developerName": "mikuta0407",
+      "subtitle": "PC-98 エミュレータ（MIDI 対応）",
+      "localizedDescription": "NP21i は、PC-98 シリーズ（PC-9801・PC-9821）のエミュレータです。Neko Project 21/W のコードを含む NP2kai（np21kai）をもとにした、iPhone・iPad 向けの非公式な移植版です。\n\n主な機能\n・386 以降の CPU を積んだ PC-9821 相当の環境\n・MIDI 出力・入力（MPU-PC98II）: USB・Bluetooth の MIDI 機器、アプリ内の音源（SoundFont・DLS）\n・MIDI クロックの送信で、外部のシーケンサーやリズムマシンをテンポに合わせられます\n・PC-98 配列のソフトウェアキーボード、音楽ソフトの打ち込み用キーボード、ゲーム用キーボード\n・ハードウェアキーボード、マウス、トラックパッド、ゲームコントローラ\n・iPhone Duo をノートパソコンのように持ったときは、上の画面に PC-98、下の画面にキーボード\n・フロッピー・ハードディスクのイメージの作成と取り込み、Z: ドライブ（ホストドライブ）でのファイル受け渡し\n・環境の切り替え、状態の保存と読み込み\n・スクリーンショット、録画、MIDI の記録\n・FONT.ROM がなくても iOS のフォントで漢字を表示\n\nご注意\nBIOS などの ROM、OS、ソフトウェアは含まれていません。お持ちの実機から吸い出したものか、FreeDOS(98) のように自由に使えるものをご用意ください。ROM がなくても内蔵の互換 BIOS で起動できるソフトもあります。\n\nPC-98、PC-9801、PC-9821 は日本電気株式会社の商標です。本アプリは日本電気株式会社、Neko Project 21/W および NP2kai の開発者とは関係ありません。\n\nソースコード: https://github.com/mikuta0407/NP21i",
+      "iconURL": "https://mikuta0407.github.io/altstore-source/apps/np21i/icon.png",
+      "tintColor": "#3566C4",
+      "category": "utilities",
+      "screenshots": {
+        "iphone": [
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/np21i/screenshots/iphone/01-pc98kbd.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/np21i/screenshots/iphone/02-rcpkbd.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/np21i/screenshots/iphone/03-gamekbd.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/np21i/screenshots/iphone/04-midi.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/np21i/screenshots/iphone/05-landscape.png",
+            "width": 2868,
+            "height": 1320
+          }
+        ],
+        "ipad": [
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/np21i/screenshots/ipad/01-pc98kbd.png",
+            "width": 2064,
+            "height": 2752
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/np21i/screenshots/ipad/02-rcpkbd.png",
+            "width": 2064,
+            "height": 2752
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/np21i/screenshots/ipad/03-gamekbd.png",
+            "width": 2064,
+            "height": 2752
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/np21i/screenshots/ipad/04-midi.png",
+            "width": 2064,
+            "height": 2752
+          },
+          {
+            "imageURL": "https://mikuta0407.github.io/altstore-source/apps/np21i/screenshots/ipad/05-landscape.png",
+            "width": 2752,
+            "height": 2064
+          }
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1",
+          "buildVersion": "67",
+          "date": "2026-11-11T15:24:55Z",
+          "localizedDescription": "AltStore PAL での最初のリリースです。",
+          "downloadURL": "https://github.com/mikuta0407/altstore-source/releases/download/np21i-0.1-67/manifest.json",
+          "assetURLs": {
+            "manifest": "https://github.com/mikuta0407/altstore-source/releases/download/np21i-0.1-67/manifest.json",
+            "signature": "https://github.com/mikuta0407/altstore-source/releases/download/np21i-0.1-67/signature",
+            "3fb7ae88-b8ae-3df8-b0df-f297e48b99c5": "https://github.com/mikuta0407/altstore-source/releases/download/np21i-0.1-67/3fb7ae88-b8ae-3df8-b0df-f297e48b99c5.ipa",
+            "b3ee1c6f-47d8-34ea-bd1c-ebecb826aae6": "https://github.com/mikuta0407/altstore-source/releases/download/np21i-0.1-67/b3ee1c6f-47d8-34ea-bd1c-ebecb826aae6.ipa",
+            "bec05f42-a554-353d-a1bd-c52a3762eacb": "https://github.com/mikuta0407/altstore-source/releases/download/np21i-0.1-67/bec05f42-a554-353d-a1bd-c52a3762eacb.ipa",
+            "e96c70c0-affe-3a2a-b683-5f0a1901f659": "https://github.com/mikuta0407/altstore-source/releases/download/np21i-0.1-67/e96c70c0-affe-3a2a-b683-5f0a1901f659.ipa"
+          },
+          "size": 1794813,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "beta-reports-active",
+          "get-task-allow"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Bluetooth MIDI 機器と接続するために使います。",
+          "NSPhotoLibraryAddUsageDescription": "PC-98 の画面のスクリーンショットや録画を写真に保存するために使います。"
         }
       }
     }
