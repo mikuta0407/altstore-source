@@ -85,6 +85,23 @@
       },
       "versions": [
         {
+          "version": "0.5.2",
+          "buildVersion": "186",
+          "date": "2026-11-18T01:53:57Z",
+          "localizedDescription": "・SSH: 画面のタッチを「マウスクリック」「マウスホイールでスクロール」「バッファをスクロール」から選べるようになりました（キーボード上のバーとメニューから切り替え）。ホイールの速さも選べます\n・SSH: iPhone では接続するとすぐにキーボードが出ます\n・セッションのメニューで「接続先一覧へ戻る」と「切断」を一番上にしました",
+          "downloadURL": "https://github.com/mikuta0407/altstore-source/releases/download/mremote-0.5.2-186/manifest.json",
+          "assetURLs": {
+            "manifest": "https://github.com/mikuta0407/altstore-source/releases/download/mremote-0.5.2-186/manifest.json",
+            "signature": "https://github.com/mikuta0407/altstore-source/releases/download/mremote-0.5.2-186/signature",
+            "0ecebea0-f228-3545-b8dc-7a434b61f875": "https://github.com/mikuta0407/altstore-source/releases/download/mremote-0.5.2-186/0ecebea0-f228-3545-b8dc-7a434b61f875.ipa",
+            "24b555fb-904c-374a-9d87-82736eb1b590": "https://github.com/mikuta0407/altstore-source/releases/download/mremote-0.5.2-186/24b555fb-904c-374a-9d87-82736eb1b590.ipa",
+            "9477b867-74da-38f0-80f8-fbed4ab10c7d": "https://github.com/mikuta0407/altstore-source/releases/download/mremote-0.5.2-186/9477b867-74da-38f0-80f8-fbed4ab10c7d.ipa",
+            "a3c524c9-b3f0-32f1-951f-76f2439c4a00": "https://github.com/mikuta0407/altstore-source/releases/download/mremote-0.5.2-186/a3c524c9-b3f0-32f1-951f-76f2439c4a00.ipa"
+          },
+          "size": 5254658,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.5.0",
           "buildVersion": "182",
           "date": "2026-11-05T16:59:52Z",
